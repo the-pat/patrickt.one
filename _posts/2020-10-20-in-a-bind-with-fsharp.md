@@ -6,7 +6,7 @@ date: 2020-10-20 11:42 +0200
 
 While going through the [F# exercism track](https://exercism.io/my/tracks/fsharp), I stumbled upon F#'s `bind` function.
 
-One of my favorite things about exercism is the ability to view other user's published solutions. In this case, the most starred solution for **Phone Number** by _alex123098_ had an interesting solution using `Result.bind` and `Result.map`. Thus begins our journey.
+One of my favorite things about Exercism is the ability to view other user's published solutions. In this case, the most starred solution for **Phone Number** by _alex123098_ had an interesting solution using `Result.bind` and `Result.map`. Thus begins our journey.
 
 _Note: For a more in-depth post, please check out Scott Wlaschin's post on [Understanding bind](https://fsharpforfunandprofit.com/posts/elevated-world-2/)._
 
@@ -154,4 +154,4 @@ Ok (10, 0) |> Result.bind divide |> Result.bind add1
 // Error "divisor cannot be zero"
 ```
 
-While this is a simple example, hopefully it demonstrates how `bind` helps us simplfy the internals of our functions without losing context.
+While this is a simple example, hopefully it demonstrates how `bind` helps us simplify the internals of our functions without losing context.
