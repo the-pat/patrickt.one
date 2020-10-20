@@ -2,8 +2,8 @@
 layout: post
 title: "Custom Domains and Gmail"
 date: 2020-01-02 14:12 -0600
-categories: code email
 ---
+
 This post walks through the process of using Gmail with a custom domain name _for free_.
 
 ## 1. Create a Gmail Account
@@ -40,7 +40,7 @@ Mailgun provides step-by-step directions for adding the DNS records for your DNS
 
 ## 5. Set up routing
 
-With Mailgun you have the ability to set up **routes** (Receiving > Create Route).  This allows you to forward mail to different email addresses. With a personal domain, I find having one _catch all_ route sufficient.
+With Mailgun you have the ability to set up **routes** (Receiving > Create Route). This allows you to forward mail to different email addresses. With a personal domain, I find having one _catch all_ route sufficient.
 
 - **Expression Type:** Catch All
 - **Forward:** Selected + your gmail address
@@ -66,19 +66,19 @@ Finally to Gmail. On the right side of the page, click the gear icon > Settings 
 
 1. **Name:** `your name (or whatever you'd like to show up)`
 
-    **Email address:** `<the SMTP email address you created (hello@patrickt.one)>`
+   **Email address:** `<the SMTP email address you created (hello@patrickt.one)>`
 
-    **Treat as an alias:** `checked`
+   **Treat as an alias:** `checked`
 
 2. **SMTP Server:** `smtp.mailgun.org`
 
-    **Port:** 587
+   **Port:** 587
 
-    **Username:** `hello@patrickt.one`
+   **Username:** `hello@patrickt.one`
 
-    **Password:** `<password from earlier>`
+   **Password:** `<password from earlier>`
 
-    **Secured connection using TLS:** `selected`
+   **Secured connection using TLS:** `selected`
 
 If everything goes as expected, you will receive an email from Google with a verification code (or link).
 

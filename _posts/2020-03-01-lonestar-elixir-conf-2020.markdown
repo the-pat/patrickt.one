@@ -2,7 +2,6 @@
 layout: post
 title: "Notes from Lonestar Elixir Conference (2020)"
 date: 2020-01-13 20:08 -0600
-categories: conference elixir code
 ---
 
 Great conference. Great community. 10/10 would attend again.
@@ -16,17 +15,17 @@ Great conference. Great community. 10/10 would attend again.
 - People feel empowered to make decisions when they feel confident
 - Status Distance === Bias
 - [Fluency Hueristic](https://medium.com/gravityblog/9-fluency-heuristic-43283333918a) = better it sounds, more likely it is to "win" (aka the best ideas don't always win)
-    [![Fluency Hueristic](https://miro.medium.com/max/1000/0*L98cY2JMsuZgqYQ0.png)](https://medium.com/gravityblog/9-fluency-heuristic-43283333918a)
+  [![Fluency Hueristic](https://miro.medium.com/max/1000/0*L98cY2JMsuZgqYQ0.png)](https://medium.com/gravityblog/9-fluency-heuristic-43283333918a)
 - Clear expectations of behavior
 - Language matters (be careful what you say)
 - [ElixirBridge](http://elixirbridge.org/docs/) - outreach for underrepresented people in tech
 - Used [Spectacle](https://formidable.com/open-source/spectacle/) for slides
 - Everyone has limited knowledge, but unlimited potential
-    [![Everyone has limited knowledge, but unlimited potential](https://pbs.twimg.com/media/ERyuxFtXsAIAHyH?format=jpg&name=large)](https://twitter.com/eugico/status/1233052570723246081)
+  [![Everyone has limited knowledge, but unlimited potential](https://pbs.twimg.com/media/ERyuxFtXsAIAHyH?format=jpg&name=large)](https://twitter.com/eugico/status/1233052570723246081)
 
 ## All Aboard the Stateful Train - [Eric Oestrich](https://twitter.com/EricOestrich)
 
-- [ExVenture](https://exventure.org/) - MUD server (*very* stateful)
+- [ExVenture](https://exventure.org/) - MUD server (_very_ stateful)
 - [Grapevine](https://grapevine.haus/)- MUD Community (think steam for Elixir)
 - Stateful = less database, more OTP
 - Using GenServers as the basic building blocks
@@ -35,10 +34,12 @@ Great conference. Great community. 10/10 would attend again.
 - [Designing Elixir Systems with OTP](https://pragprog.com/book/jgotp/designing-elixir-systems-with-otp)
 
 ## Getting the Frog Out of the Well - [Zach Thomas](https://twitter.com/ZachDCThom)
+
 - more things suck, less productive you become
 - > "Sure, we could talk about aesthetic resonance a bit if you prefer that?" - Zach
 
 ## Tests Friend or Foe? Chain or Cable? - [Mark Windholtz](https://twitter.com/windholtz)
+
 - Spoiler: Friend
 - Cables: connect two far away points (UI to DB; ~integration tests)
 - Chain (or chain of links): unit tests for business logic that test _every_ conditional branch (think chain mail, rather than linear linkage)
@@ -46,6 +47,7 @@ Great conference. Great community. 10/10 would attend again.
 - [Mocks and explicit contracts - José Valim](http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/)
 
 ## From Bootcamp To Elixir Contracts: A Road Less Traveled - [Melvin Cedeno](https://twitter.com/TheCraftedGem)
+
 - [Council on Integrity in Results Reporting (CIRR)](https://cirr.org/) - reports on bootcamps
 - Use [OODA loop](https://en.wikipedia.org/wiki/OODA_loop) for learning
 - [Turing School](https://turing.io/)
@@ -58,9 +60,10 @@ Great conference. Great community. 10/10 would attend again.
   - [Plataformatec](http://plataformatec.com.br/elixir-radar/jobs)
 
 ## Responsible Resources - [Justin Schneck](https://twitter.com/mobileoverlord)
+
 - > "We are just statistics, born to consume resources." - [Horace](https://www.goodreads.com/quotes/7500446-we-are-just-statistics-born-to-consume-resources)
 - Docker will consume the world if you let it
-    [![Docker will consume the world if you let it](https://pbs.twimg.com/media/ERzu3w5W4AERPTK?format=jpg&name=small)](https://twitter.com/ANeyzb/status/1233123058740813825)
+  [![Docker will consume the world if you let it](https://pbs.twimg.com/media/ERzu3w5W4AERPTK?format=jpg&name=small)](https://twitter.com/ANeyzb/status/1233123058740813825)
 - [Clean your room, clean your code, you ain't gunna need it](https://martinfowler.com/bliki/Yagni.html)
 - Wireless communication:
   - [LoRaWAN (**Lo**ng **Ra**nge)](https://en.wikipedia.org/wiki/LoRa#LoRaWAN)
@@ -69,6 +72,7 @@ Great conference. Great community. 10/10 would attend again.
 - [VintageNet](https://github.com/nerves-networking/vintage_net) - new Nerves networking library
 
 ## OpenTelemetry - [Greg Mefford](https://twitter.com/ferggo)
+
 - [![Standards](https://imgs.xkcd.com/comics/standards.png)](https://xkcd.com/927/)
 - [OpenTelemetry](https://opentelemetry.io/) - standards for traces and metrics
 - [reacon_trace](https://ferd.github.io/recon/recon_trace.html)
@@ -78,6 +82,7 @@ Great conference. Great community. 10/10 would attend again.
 - [![The Grand Bank of Jon Jon](https://pbs.twimg.com/media/ER4DnbYWoAETciz?format=jpg&name=small)](https://twitter.com/JonCarstens/status/1233427328841191424)
 
 ## Physically-Based Rendering Using Elixir - [Jason Stewart](https://medium.com/@jason.r.stewart)
+
 - Can we make a 3D rendering engine in Elixir? Yes. Should we? Maybe.
 - [raytracer-ex](https://github.com/jrstewart/raytracer-ex)
 - Results: slow, but faster than expected
@@ -129,18 +134,22 @@ Great conference. Great community. 10/10 would attend again.
 - [Brook](https://github.com/bbalser/brook)
 - Steps:
   1. Event bus
-    - pub/sub broadcasting
-    - unified view (independent of any service)
+
+
+      - pub/sub broadcasting
+      - unified view (independent of any service)
   2. Event contract
-    - message structure (minimal and assertive)
-    ```elixir
-%{
-    type: string,
-    author: string,
-    created_at: pos_int,
-    data: term(), # like an HTTP body
-    forwarded: bool
-}
+
+
+      - message structure (minimal and assertive)
+      ```elixir
+  %{
+  type: string,
+  author: string,
+  created_at: pos_int,
+  data: term(), # like an HTTP body
+  forwarded: bool
+  }
   ```
   3. Serialization
     - message log interface
@@ -149,6 +158,7 @@ Great conference. Great community. 10/10 would attend again.
     - JSON
   4. View state
     - track and view what's needed and who's responsible
+  ```
 
 ## Let's Make a Pizza! Batch Operations with Broadway - [Michael Crumm](https://twitter.com/mcrumm)
 
@@ -174,7 +184,7 @@ Great conference. Great community. 10/10 would attend again.
   1. Happy doing what I'm doing
   2. Developing and learning (as a human)
   3. Changing the world for the better
-  [![Dave's Three Goals](https://pbs.twimg.com/media/ER5dzNMXYAcFpQy?format=jpg&name=small)](https://twitter.com/eugico/status/1233526488269496321)
+     [![Dave's Three Goals](https://pbs.twimg.com/media/ER5dzNMXYAcFpQy?format=jpg&name=small)](https://twitter.com/eugico/status/1233526488269496321)
 - Happy
   - You have agency (change where you're working _or_ change where you're working)
 - Growing
