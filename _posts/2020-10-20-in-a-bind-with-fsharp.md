@@ -6,9 +6,11 @@ date: 2020-10-20 11:42 +0200
 
 While going through the [F# exercism track](https://exercism.io/my/tracks/fsharp), I stumbled upon F#'s `bind` function.
 
-One of my favorite things about Exercism is the ability to view other user's published solutions. In this case, the most starred solution for **Phone Number** by _alex123098_ had an interesting solution using `Result.bind` and `Result.map` ([check it out here](https://exercism.io/tracks/fsharp/exercises/phone-number/solutions/7a5d2cf04216475cab7ea251fd8289a9)). Thus begins our journey.
+One of my favorite things about Exercism is the ability to view other user's published solutions. In this case, the most starred solution for **Phone Number** by **alex123098** had an interesting solution using `Result.bind` and `Result.map` ([check it out here](https://exercism.io/tracks/fsharp/exercises/phone-number/solutions/7a5d2cf04216475cab7ea251fd8289a9)). Thus begins our journey.
 
 _Note: For a more in-depth post, please check out Scott Wlaschin's post on [Understanding bind](https://fsharpforfunandprofit.com/posts/elevated-world-2/)._
+
+_Post-Note: **srpeterson** shared a more advanced solution that uses domain modeling for additional type safety. You can view it [here](https://exercism.io/tracks/fsharp/exercises/phone-number/solutions/9016c15f70854770a2970df61cdbe280)._
 
 ## "Unbound" Solution
 
