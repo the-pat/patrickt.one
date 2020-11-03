@@ -19,3 +19,10 @@ a {
 .footer-col-wrapper {
   color: #575757;
 }
+
+.site-nav label[for="nav-trigger"] {
+  display: none;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
