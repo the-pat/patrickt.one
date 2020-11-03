@@ -1,0 +1,21 @@
+---
+---
+
+@import "minima";
+
+a {
+  color: #02529c;
+
+  &:visited {
+    color: #9c0252;
+  }
+}
+
+.site-header {
+  border-top-color: #9c0252;
+}
+
+.post-meta,
+.footer-col-wrapper {
+  color: #575757;
+}
