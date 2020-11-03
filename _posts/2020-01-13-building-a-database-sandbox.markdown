@@ -2,6 +2,7 @@
 layout: post
 title: "Building a Database Sandbox"
 date: 2020-01-13 20:08 -0600
+excerpt: Use docker as an alternative to the hassle of installing and configuring a database on your development machine.
 ---
 
 This post is largely the result of:
