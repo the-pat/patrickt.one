@@ -255,3 +255,11 @@ code {
 ::-moz-selection {
   background: var(--bg2);
 }
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    top: 0;
+    background-color: var(--bg0);
+    border-color: transparent;
+  }
+}
