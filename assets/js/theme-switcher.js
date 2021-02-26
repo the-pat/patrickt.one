@@ -52,5 +52,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("theme-toggle").innerHTML = "Dark Mode";
   }
 
-  document.getElementById("theme-toggle").style.display = "block";
+  document.getElementById("theme-toggle").style.display = "inline-block";
 });
