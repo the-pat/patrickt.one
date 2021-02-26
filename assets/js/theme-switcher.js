@@ -1,3 +1,6 @@
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+let theme = sessionStorage.getItem("theme");
+
 function switchTheme() {
   let theme = sessionStorage.getItem("theme");
   if (theme === "dark") {
@@ -20,9 +23,6 @@ function switchTheme() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
-  let theme = sessionStorage.getItem("theme");
-
   if (systemInitiatedDark.matches) {
     document.getElementById("theme-toggle").innerHTML = "Light Mode";
   } else {
