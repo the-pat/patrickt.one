@@ -26,13 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Free agent in software, code and architecture. Working with C# & JavaScript. Excited about Elixir & F#.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patrickt.one" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: th1s_1s_patrick
 github_username: the-pat
 show_excerpts: true
 author: Patrick Tone
-twitter:
-  username: th1s_1s_patrick
-  card: summary
 
 # Build settings
 theme: minima
