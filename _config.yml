@@ -38,6 +38,7 @@ twitter:
 theme: minima
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 markdown: kramdown
 highlighter: rouge
