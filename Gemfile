@@ -4,7 +4,8 @@ gem "minima", "~> 2.5"
 gem "github-pages", "~> 214", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed"
+  gem 'jekyll-redirect-from'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

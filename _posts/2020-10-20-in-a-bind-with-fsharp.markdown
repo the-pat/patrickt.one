@@ -2,6 +2,8 @@
 layout: post
 title: In a Bind with F#
 date: 2020-10-20 11:42 +0200
+redirect_from:
+  - /2020/10/20/in-a-bind-with-fsharp.html
 ---
 
 While going through the [F# exercism track](https://exercism.io/my/tracks/fsharp), I stumbled upon F#'s `bind` function.
