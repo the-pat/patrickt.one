@@ -13,7 +13,7 @@ twitter:
   card: summary
 
 theme: minima
-permalink: /:year:month:day/:title:output_ext
+permalink: /:year:month:day-:title:output_ext
 minima:
   date_format: "%Y-%m-%d"
 plugins:
