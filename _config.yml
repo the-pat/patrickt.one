@@ -1,0 +1,21 @@
+title: Patrick Tone
+email: email@patrickt.one
+tagline: Blog
+description: >-
+  I tell computers what to do for a living. I enjoy collecting hobbies.
+  I grew up in the desert, but now live in Europe. I really like my life.
+baseurl: ""
+url: "https://patrickt.one"
+twitter_username: Patrick__Tone
+github_username: the-pat
+twitter:
+  username: Patrick__Tone
+  card: summary
+
+theme: minima
+permalink: /:year:month:day/:title:output_ext
+minima:
+  date_format: "%Y-%m-%d"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
